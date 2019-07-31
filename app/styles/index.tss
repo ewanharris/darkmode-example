@@ -1,0 +1,14 @@
+"Window": {
+	backgroundColor: Alloy.CFG.styles.windowColor
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: Alloy.CFG.styles.textColor,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
