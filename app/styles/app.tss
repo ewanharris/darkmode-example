@@ -24,3 +24,9 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+
+'Tab[platform=android]': {
+  titleColor: Alloy.CFG.color.tabTitle,
+  activeTitleColor: Alloy.CFG.color.accent,
+}

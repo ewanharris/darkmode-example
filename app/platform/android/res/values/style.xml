@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="Theme.MyAppTheme" parent="Theme.AppCompat.DayNight">
+		<item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+		<item name="actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+		<item name="buttonStyle">@style/Theme.MyAppTheme.Button</item>
+
+		<item name="android:actionMenuTextColor">@color/actionMenuText</item>
+		<item name="colorAccent">@color/accent</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+
+	<style name="Theme.MyAppTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+		<item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
+		<item name="titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
+		<item name="buttonStyle">@style/Theme.MyAppTheme.Button</item>
+		<item name="colorControlNormal">@color/tabIcon</item>
+	</style>
+
+	<style name="Theme.MyAppTheme.ActionBar.TitleTextStyle"
+		   parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="buttonStyle">@style/Theme.MyAppTheme.Button</item>
+	</style>
+
+	<style name="Theme.MyAppTheme.Button" parent="Widget.AppCompat.Button">
+		<item name="android:textAllCaps">false</item>
+	</style>
+</resources>

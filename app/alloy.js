@@ -10,6 +10,15 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
+if (OS_ANDROID) {
+	const mode = Ti.UI.Android.nightModeStatus;
+	if (mode === Ti.UI.Android.MODE_NIGHT_YES) {
+		Ti.UI.semanticColorType = Ti.UI.SEMANTIC_COLOR_TYPE_DARK;
+	} else {
+		Ti.UI.semanticColorType = Ti.UI.SEMANTIC_COLOR_TYPE_LIGHT;
+	}
+}
+
 const colors = require('/semantic.colors.json');
 Alloy.CFG.color = {};
 for (var [ color ] of Object.entries(colors)) {

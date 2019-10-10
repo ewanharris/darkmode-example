@@ -1,10 +1,40 @@
 {
-	"windowColor": {
+	"primaryBackground": {
+		"light": "#efece3",
+		"dark": "#000000"
+	},
+	"textColor": {
+		"dark": {
+			"color": "#ffffff",
+			"alpha": "50.0"
+		},
+		"light": {
+			"color": "#000000",
+			"alpha": "50.0"
+		}
+	},
+	"tabBar": {
 		"dark": "#009402",
 		"light": "#fff185"
 	},
-	"textColor": {
-		"dark": "#ff85e2",
-		"light": "#ff1f1f"
+	"tabsBackground": {
+		"light": "#ffffff",
+		"dark": "#1c1c1e"
+	},
+	"tabIcon": {
+		"light": "#757575",
+		"dark": "#d1cbc0"
+	},
+	"tabTitle": {
+		"light": "#757575",
+		"dark": "#d1cbc0"
+	},
+	"accent": {
+		"light": "#ac0a13",
+		"dark": "#147efb"
+	},
+	"actionMenuText": {
+		"dark": "#8b8bff",
+		"light": "#00008b"
 	}
 }

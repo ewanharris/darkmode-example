@@ -1,5 +1,5 @@
 "Window": {
-	backgroundColor: Alloy.CFG.color.windowColor
+	backgroundColor: Alloy.CFG.color.primaryBackground
 }
 
 "Label": {
@@ -12,3 +12,19 @@
 	},
 	textAlign: 'center'
 } 
+
+"TabGroup": {
+	tabsBackgroundColor: Alloy.CFG.color.tabsBackground,
+	barColor: Alloy.CFG.color.primaryBackground,
+	activeTabIconTint: Alloy.CFG.color.accent
+}
+
+"TabGroup[platform=android]": {
+	shiftMode: false,
+	style: Titanium.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION,
+}
+
+'#TabGroup[platform=ios]': {
+	tabsBackgroundColor: Alloy.CFG.color.tabsBackground,
+	tabsTintColor: Alloy.CFG.color.tabsBackground
+}
