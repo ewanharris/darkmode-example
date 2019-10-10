@@ -11,8 +11,8 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 const colors = require('/semantic.colors.json');
-Alloy.CFG.styles = {};
+Alloy.CFG.color = {};
 for (var [ color ] of Object.entries(colors)) {
-	Alloy.CFG.styles[color] = Ti.UI.fetchSemanticColor(color)
+	Alloy.CFG.color[color] = Ti.UI.fetchSemanticColor(color);
 }
-console.log(Alloy.CFG.styles);
+console.log(Alloy.CFG.color);

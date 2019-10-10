@@ -1,11 +1,11 @@
 "Window": {
-	backgroundColor: Alloy.CFG.styles.windowColor
+	backgroundColor: Alloy.CFG.color.windowColor
 }
 
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-	color: Alloy.CFG.styles.textColor,
+	color: Alloy.CFG.color.textColor,
 	font: {
 		fontSize: 20,
 		fontFamily: 'Helvetica Neue'
