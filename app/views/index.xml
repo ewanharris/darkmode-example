@@ -1,11 +1,11 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Tab 1" icon="tab1.png">
+		<Tab title="Tab 1" icon="/images/tab1.png">
 			<Window title="Tab 1">
 				<Label>I am Window 1</Label>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="tab2.png">
+		<Tab title="Tab 2" icon="/images/tab2.png">
 			<Window title="Tab 2">
 				<Label>I am Window 2</Label>
 			</Window>
